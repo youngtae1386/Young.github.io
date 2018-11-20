@@ -111,7 +111,6 @@ img.YoungCho {
   font-size: 16px;
 }
 
-
 /* form {
   margin-top: 50px;
   transition: all 4s ease-in-out;
@@ -125,24 +124,24 @@ img.YoungCho {
   color: black;
   font-size: 15px;
   margin-bottom: 16px;
-  font-weight:bold;
-} 
+  font-weight: bold;
+}
 input {
   height: 45px;
 }
 
 form .submit {
-  border-bottom:none;
-  background: #979799;
+  border-bottom: none;
+  background: gray;
   background-color: none;
-  color:black;
-  font-size: 20px;
+  color: black;
+  font-size: 33px;
   font-weight: bold;
-  letter-spacing: 2px;
-  /* height: 30px; */
+  letter-spacing: 5px;
+  height: 71px;
   margin-top: 20px;
 }
 form .submit:hover {
-  background-color:#1808ed;
+  background-color: blue;
   cursor: pointer;
 }
