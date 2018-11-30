@@ -11,14 +11,14 @@
    {
     height: 50px;
     background-color: #0099cc;
-    color: #ffffff;
+    color: #631010;
     text-align: center;
     font-size: 12px;
     padding: 15px;
   }
 
 div.gallery {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(90, 37, 37);
 }
 
 div.gallery:hover {
@@ -26,6 +26,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
+    background-color: brown;
     width: 100%;
     height: auto;
 }
@@ -34,10 +35,6 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
-
-/* * {
-    box-sizing: border-box;
-} */
 
 .responsive {
     padding: 0 6px;

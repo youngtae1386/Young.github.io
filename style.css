@@ -13,25 +13,14 @@ body {
   max-width: 960px;
   padding-right: 10px;
   padding-left:  10px; 
-  /* background: lightgrey; */
 }
 
 *,
 *:before,
 *:after {
+  padding: 8px;
   box-sizing: inherit;
 }
-
-/* body {
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 50, 0.5)),
-    url("img/backGround.jpg");
-  background-size: cover;
-  background-position: center;
-  font-family: "Source Sans Pro", sans-serif;
-} */
 
 img {
   max-width: 100%;
@@ -49,15 +38,6 @@ html {
 
     margin: 0;
 }
-/* body {
-    height: 100%;
-    margin-right: auto;
-    margin-left:  auto;
-    max-width: 960px;
-    padding-right: 10px;
-    padding-left:  10px;
-    background: lightgrey;
-} */
 
 
 a:hover {
