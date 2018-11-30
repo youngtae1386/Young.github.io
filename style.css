@@ -1,13 +1,28 @@
 html {
   box-sizing: border-box;
+  margin: 0;
+  background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 50, 0.5)),
+  url("img/backGround.jpg");
 }
+
+body {
+
+  height: 100%; 
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+  padding-right: 10px;
+  padding-left:  10px; 
+  /* background: lightgrey; */
+}
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-body {
+/* body {
   margin: 0;
   padding: 0;
   text-align: left;
@@ -16,10 +31,7 @@ body {
   background-size: cover;
   background-position: center;
   font-family: "Source Sans Pro", sans-serif;
-  /* line-height: 1.5;
-  background: rgb(90, 70, 70);
-  color: #323232; */
-}
+} */
 
 img {
   max-width: 100%;
@@ -33,17 +45,27 @@ img {
   overflow: visible;
 }
 
-a {
-  color: black;
-  text-decoration: none;
+html {
+
+    margin: 0;
 }
+/* body {
+    height: 100%;
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+    background: lightgrey;
+} */
+
 
 a:hover {
   text-decoration: underline;
 }
 
 .container {
-  max-width: 980px; /* , 768px, 640px different scrn size */
+  max-width: 980px; 
   margin: 40px auto;
   padding: 32px;
   background: floralwhite;
@@ -84,7 +106,7 @@ img.YoungCho {
 
 .links {
   display: flex;
-  margin: 10px 0 20px 0;
+  margin: 41px -62px -16px 12px;
 }
 
 .link-item {
@@ -97,24 +119,6 @@ img.YoungCho {
   margin-right: 6px;
 }
 
-.contact-title {
-  margin-top: 100px;
-  color: #fff;
-  text-transform: uppercase;
-  transition: all 4s ease-in-out;
-}
-.contract-title h1 {
-  font-size: 32px;
-  line-height: 10px;
-}
-.contract-title h2 {
-  font-size: 16px;
-}
-
-/* form {
-  margin-top: 50px;
-  transition: all 4s ease-in-out;
- } */
 .form-control {
   width: 700px;
   background: transparent;
