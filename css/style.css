@@ -2,7 +2,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 50, 0.5)),
-  url("img/backGround.jpg");
+  url("../img/backGround.jpg");
 }
 
 body {
