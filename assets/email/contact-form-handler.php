@@ -15,7 +15,7 @@
     $headers = "Form: $email_from \r\n";
     $headers .="Reply-To: $visior_email \r\n";
     mail($to,$email_subject,$email_body,$headers);
-    header("Location: index.html")
+    header("Location:assets/email/contact.html")
 
 
 ?>
