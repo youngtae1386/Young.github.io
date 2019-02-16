@@ -24,7 +24,11 @@ body {
   max-width: 79%;
 }
 img {
-  max-width: 25%;
+  max-width: 40%;
+}
+
+#social {
+  max-width: 10%;
 }
 
 .icon {
